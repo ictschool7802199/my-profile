@@ -2,10 +2,34 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
 .intro-box {
-  width: 300px;
-  height: 150px;
+  width: 20%;
+  height: 100px;
   background-color: cornflowerblue;
   border-radius: 12px;
   text-align: center;
+}
+.name-box {
+  width: 60%;
+  height: 100px;
+  background-color: yellowgreen;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+}
+.image-profile-box {
+  width: 20%;
+  height: 100px;
+}
+.image-profile-box img {
+  display: block;
+  height: 100%;
+  border-radius: 50%;
+  margin: auto;
 }
