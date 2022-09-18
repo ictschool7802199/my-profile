@@ -33,3 +33,33 @@
   border-radius: 50%;
   margin: auto;
 }
+
+.content {
+  width: 60%;
+  height: auto;
+  margin: 50px auto;
+  background-color: hotpink;
+}
+.content-box {
+  width: 200px;
+  min-height: 400px;
+  margin: 0px auto;
+  padding: 25px;
+}
+.content-box p {
+  margin-block-start: 0px;
+  color: white;
+  font-size: 24px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: indigo;
+}
+.footer h1 {
+  color: darkorchid;
+}
